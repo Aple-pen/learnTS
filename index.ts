@@ -1,11 +1,5 @@
-import {add} from "./HighOrderFunc"
-import {Person,makePerson,testPerson} from "./Destructuring"
+import {Student} from "./Student/Student"
 
-console.log(add(1)(2))
+let student1 = new Student("국문학과",123123)
 
-const fn = add(1)
-console.log(fn(2))
-
-
-console.log(makePerson("jack"))
-console.log(testPerson("test",13))
+console.log(student1.getStudent)
